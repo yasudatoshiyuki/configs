@@ -1,1 +1,0 @@
-/Users/yasudatoshiyuki/.zprezto/runcoms/zshrc
