@@ -46,9 +46,10 @@ Plug 'mileszs/ack.vim'
 Plug 'slim-template/vim-slim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'digitaltoad/vim-pug'
-Plug 'vim-syntastic/syntastic'
-Plug 'posva/vim-vue'
-Plug 'sekel/vim-vue-syntastic'
+" Plug 'vim-syntastic/syntastic'
+" Plug 'posva/vim-vue'
+" Plug 'sekel/vim-vue-syntastic'
+Plug 'w0rp/ale'
 call plug#end()
 
 " hashivim/vim-terraform
@@ -64,5 +65,5 @@ endif
 
 " let g:syntastic_javascript_eslint_exec = '~/.nvm/versions/node/v10.4.0/bin/eslint'
 
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_vue_checkers = ['eslint']
+" let g:syntastic_javascript_checkers = ['eslint']
+" let g:syntastic_vue_checkers = ['eslint']
